@@ -1,3 +1,4 @@
+
 # MIT-App-Inventor-IoT-App-ESP32-and-Firebase-RTDB-Device-Control
 MIT App Inventor IoT App | ESP32 and Firebase RTDB Device Control
 
@@ -16,6 +17,7 @@ IoT APP:
 For quick build and development or learning purposes, you can import the file "FirebaseIoT_Demos.aia" into your MIT App Inventor, this will pull in the already-designed app for you to start with.
 
 App Interface:
+
 ![App interface](https://github.com/user-attachments/assets/88c40a6e-991a-4b6f-8509-12f668f828a0)
 
 

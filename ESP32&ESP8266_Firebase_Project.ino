@@ -1,3 +1,5 @@
+/*For this project I have used and ESP8266, for the code to work with an ESP32 you will have to uncomment the "#include <WiFi.h> 
+and comment out the #include <ESP8266WiFi.h>*/
 #include <ESP8266WiFi.h> //for ESP8266
 //#include <WiFi.h>  //uncomment for ESP32
 #include <Firebase_ESP_Client.h>
@@ -9,18 +11,18 @@
 #include <addons/RTDBHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "BHN-LOGISTICS"
-#define WIFI_PASSWORD "OFFICE23PHC"
+#define WIFI_SSID "Your-SSID"
+#define WIFI_PASSWORD "SSID-PASSWORD"
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyDyXIjcMj8MhY0iR3kRoTHQIsBUXbInBk8"
+#define API_KEY "Your-Firebase-API"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://esp32-training-project-default-rtdb.firebaseio.com" 
+#define DATABASE_URL "Your FBDB URL" 
 
 /* 4. Define the user Email and password that are already registered or added in your project */
-#define USER_EMAIL "ojikeya.chijioke@google.com"
-#define USER_PASSWORD "Emmanuel@345"
+#define USER_EMAIL "DB USER NAME"
+#define USER_PASSWORD "DB-PASSWORD"
 
 // Define Firebase Data object
 FirebaseData fbdo;

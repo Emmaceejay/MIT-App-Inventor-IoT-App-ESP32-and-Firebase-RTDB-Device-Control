@@ -6,6 +6,7 @@ This is a project that shows the use of MIT App Inventor for IoT app front-end a
 Libraries to install for this.
 * Arduino Client Library for ESP8266 and ESP32 4.4.14
 
+To learn how to set Firebase for this project, Kindly check out this video by "Enjoy Mechatronics": https://youtu.be/wrIs2m7Q8Ic
 Note: The code in this project was copied from the "Enjoy Mechatronics" GitHub repo.
 I combined two of the different code samples and combined them, then made some modifications to them to create this project
 1. For sensor upload to Firebase from ESP32:  https://github.com/Enjoy-Mechatronics
